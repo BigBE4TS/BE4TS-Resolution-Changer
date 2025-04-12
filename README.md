@@ -1,38 +1,27 @@
-Here's a clean, professional GitHub description for your resolution changer tool:
+# BE4TS Resolution Controller (Beta)
 
----
+![Java](https://img.shields.io/badge/Java-JDK%2021-blue)
+![Windows](https://img.shields.io/badge/Platform-Windows%20Only-important)
+![Status](https://img.shields.io/badge/Status-Beta-yellow)
 
-# BE4TS Resolution Controller
+A lightweight Windows utility for instant resolution switching with global hotkeys, designed for gamers and power users.
 
-A lightweight Windows utility for quickly switching between display resolutions with hotkey support. Perfect for gamers, streamers, and power users who need to change resolutions on the fly.
+## ✨ Features
+- **One-click resolution switching**
+- **Hotkey support** (`Alt+Y` for default, `Alt+T` for custom)
+- **Auto-detects current display settings**
+- **Remembers custom resolutions**
+- **Clean, intuitive interface**
 
-### Features
-🎯 **One-click resolution switching**  
-⌨️ **Hotkey support** (Alt+Y for default, Alt+T for custom)  
-🔄 **Auto-detects current display settings**  
-🎨 **Clean, intuitive interface**  
-💾 **Remembers custom resolutions**
+## ⚙️ System Requirements
+- **Windows 10/11**
+- **JDK 21** ([Download from Adoptium](https://adoptium.net/))
+- Administrator privileges (for hotkey registration)
 
-### Usage
-1. Set your desired custom resolution in the GUI
-2. Toggle between presets instantly:
-   - `Alt+Y` → Default resolution (auto-detected)
-   - `Alt+T` → Your custom resolution
-
-### Technical
-- Built with Java Swing
-- Uses JNativeHook for global hotkeys
-- Windows display API integration via JNA
-
-Perfect for when you need to quickly switch between gaming and productivity resolutions!
-
----
-
-This description:
-1. Highlights key features with emoji visuals
-2. Explains the core functionality simply
-3. Includes technical details for developers
-4. Mentions the ideal use case
-5. Uses clean markdown formatting
-
-You can paste this directly into your GitHub repo's description or README.md. Would you like me to add anything specific about your project's development status or future plans?
+## 🚀 Getting Started
+1. Install JDK 21 from [Adoptium](https://adoptium.net/)
+2. Download the latest release
+3. Run the JAR file:
+   ```bash
+   java -jar BE4TS-Resolution-Controller.jar
+4. Optional if you want you can run the exe file for a quick and seemless usage.
