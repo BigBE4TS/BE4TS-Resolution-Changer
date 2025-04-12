@@ -1,27 +1,31 @@
 # BE4TS Resolution Controller (Beta)
 
-![Java](https://img.shields.io/badge/Java-JDK%2021-blue)
+![Java](https://img.shields.io/badge/Java-JDK%2021-blue) 
 ![Windows](https://img.shields.io/badge/Platform-Windows%20Only-important)
-![Status](https://img.shields.io/badge/Status-Beta-yellow)
+![AC-Safe](https://img.shields.io/badge/Anticheat-Safe-success)
 
-A lightweight Windows utility for instant resolution switching with global hotkeys, designed for gamers and power users.
+> ⚠️ **Beta Notice**: This app requires manual resolution setup in your GPU control panel before use
+
+## 🚨 Critical Setup
+1. **Create resolutions FIRST in your GPU software**:
+   - **NVIDIA**: NVIDIA Control Panel → Display → Change Resolution → Customize...
+   - **AMD**: AMD Software → Display → Custom Resolutions  
+   - **Intel**: Intel Graphics Command Center → Display → Custom Resolutions
+2. *Then* select them in this app
 
 ## ✨ Features
-- **One-click resolution switching**
-- **Hotkey support** (`Alt+Y` for default, `Alt+T` for custom)
-- **Auto-detects current display settings**
-- **Remembers custom resolutions**
-- **Clean, intuitive interface**
+- Switch between presets with `Alt+Y` (Default) / `Alt+T` (Custom)
+- Anti-cheat safe (no memory injection/drivers used)
+- Auto-detects existing resolutions
 
-## ⚙️ System Requirements
-- **Windows 10/11**
-- **JDK 21** ([Download from Adoptium](https://adoptium.net/))
-- Administrator privileges (for hotkey registration)
+## ⚙️ Requirements
+- **JDK 21** ([Adoptium](https://adoptium.net))
+- **GPU Drivers**: Latest NVIDIA/AMD/Intel
+- **Recommended**: Admin rights (for reliable hotkeys)
 
-## 🚀 Getting Started
-1. Install JDK 21 from [Adoptium](https://adoptium.net/)
-2. Download the latest release
-3. Run the JAR file:
-   ```bash
-   java -jar BE4TS-Resolution-Controller.jar
-4. Optional if you want you can run the exe file for a quick and seemless usage.
+## 📝 Beta Notes
+- Resolutions won't appear in-app until created in GPU software
+- Hotkeys work without admin rights but may be less reliable
+- 100% anti-cheat safe (uses Windows-native APIs)
+
+> Example: To use 1728x1080, create it in NVIDIA Control Panel first, then it will appear here.
