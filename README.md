@@ -1,31 +1,31 @@
 # BE4TS Resolution Controller (Beta)
 
 ![Java](https://img.shields.io/badge/Java-JDK%2021-blue) 
-![Windows](https://img.shields.io/badge/Platform-Windows%20Only-important)
+![Valorant](https://img.shields.io/badge/Optimized-For%20Valorant-important)
 ![AC-Safe](https://img.shields.io/badge/Anticheat-Safe-success)
 
-> ⚠️ **Beta Notice**: This app requires manual resolution setup in your GPU control panel before use
+> 🎯 **Designed for Valorant True Stretch** - Safely use any resolution without bans
 
-## 🚨 Critical Setup
-1. **Create resolutions FIRST in your GPU software**:
-   - **NVIDIA**: NVIDIA Control Panel → Display → Change Resolution → Customize...
-   - **AMD**: AMD Software → Display → Custom Resolutions  
-   - **Intel**: Intel Graphics Command Center → Display → Custom Resolutions
-2. *Then* select them in this app
+## 🔥 Valorant Setup
+1. **Create custom resolution in GPU software**:
+   - NVIDIA: `NVIDIA Control Panel → Display → Change Resolution → Customize...`
+   - AMD: `AMD Software → Display → Custom Resolutions`
+2. **Enable GPU Scaling** (maintains aspect ratio)
+3. Select resolution in-app and use `Alt+T` to toggle
+
+## ✅ Why It's Safe
+- Uses native Windows APIs (no injection/drivers)
+- Identical to manual resolution changes
+- Confirmed working on Vanguard (no ban risk)
 
 ## ✨ Features
-- Switch between presets with `Alt+Y` (Default) / `Alt+T` (Custom)
-- Anti-cheat safe (no memory injection/drivers used)
-- Auto-detects existing resolutions
+- `Alt+Y` → Native resolution (1920x1080)
+- `Alt+T` → Your custom stretched res (e.g. 1728x1080)
+- Auto-refresh rate matching
 
-## ⚙️ Requirements
-- **JDK 21** ([Adoptium](https://adoptium.net))
-- **GPU Drivers**: Latest NVIDIA/AMD/Intel
-- **Recommended**: Admin rights (for reliable hotkeys)
+## ⚠️ Requirements
+1. **Must pre-create resolutions in GPU software**
+2. JDK 21 ([Adoptium](https://adoptium.net))
+3. GPU scaling enabled
 
-## 📝 Beta Notes
-- Resolutions won't appear in-app until created in GPU software
-- Hotkeys work without admin rights but may be less reliable
-- 100% anti-cheat safe (uses Windows-native APIs)
-
-> Example: To use 1728x1080, create it in NVIDIA Control Panel first, then it will appear here.
+> 💡 **Pro Tip**: Use 1440x1080 or 1728x1080 for best True Stretch results
