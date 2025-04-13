@@ -3,13 +3,14 @@
 ![Java](https://img.shields.io/badge/Java-JDK%2021-blue) 
 ![Valorant](https://img.shields.io/badge/Optimized-For%20Valorant-important)
 ![AC-Safe](https://img.shields.io/badge/Anticheat-Safe-success)
-
+> ⚠️ **Beta Notice**: This app requires manual resolution setup in your GPU control panel before use
 > 🎯 **Designed for Valorant True Stretch** - Safely use any resolution without bans
 
 ## 🔥 Valorant Setup
 1. **Create custom resolution in GPU software**:
    - NVIDIA: `NVIDIA Control Panel → Display → Change Resolution → Customize...`
    - AMD: `AMD Software → Display → Custom Resolutions`
+   - Intel: `Intel Graphics Command Center → Display → Custom Resolutions`
 2. **Enable GPU Scaling** (maintains aspect ratio)
 3. Select resolution in-app and use `Alt+T` to toggle
 
