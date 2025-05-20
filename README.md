@@ -1,4 +1,4 @@
-# BE4TS Resolution Controller (Beta)
+# BE4TS Resolution Controller (v1.0)
 
 ![Java](https://img.shields.io/badge/Java-JDK%2021-blue) 
 ![Valorant](https://img.shields.io/badge/Optimized-For%20Valorant-important)
