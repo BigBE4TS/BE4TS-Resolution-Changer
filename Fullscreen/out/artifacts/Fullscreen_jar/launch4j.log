@@ -1,0 +1,14 @@
+
+
+Version:	3.50
+CmdLine:	D:\Projects\Fullscreen\out\artifacts\Fullscreen_jar\Fullscreen.exe --l4j-debug
+JNI:		No
+WOW64:		Yes
+Working dir:	D:\Projects\Fullscreen\out\artifacts\Fullscreen_jar\.
+Requires JDK:	No
+Requires 64-Bit: No
+Java min ver:	
+Java max ver:	
+JRE paths:	Downloads\jre.exe
+Check launcher:	D:\Projects\Fullscreen\out\artifacts\Fullscreen_jar\Downloads\jre.exe\bin\javaw.exe (not found)
+Error msg:	This application requires a Java Runtime Environment.
